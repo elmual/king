@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html, body{
+            height: 1100px;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+        nav{
+            background-color: gray;
+        }
+        nav a{
+            line-height: 100px;
+            color: white;
+            text-decoration: none;
+            padding: 0 20px;
+        }
+        /* nav a:hover{
+            transform: rotateY(360deg);
+            transition: .4s;
+        } */
+        section{
+            height: calc(100% - 100px);
+            scroll-margin-top: 100px;
+        }
+        #home{
+            background-color: wheat;
+            text-align: center;
+            padding-top: 20px;
+            text-shadow: 5px 5px 6px rgb(97, 95, 95);
+            font-size: 30px;
+            letter-spacing: 10px;
+        }
+        .h1:hover{
+            transform: rotateX(360deg);
+            transition: .4s;
+        }
+        .beatles{
+            height: 400px;
+            width: 40%;
+            background-image: url(beatles1.jfif);
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: 15px;
+            float: left;
+            border: 10px groove lightblue;
+        }
+        .beatles1{
+            height: 400px;
+            width: 45%;
+            background-image: url(beatles.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: 120px 50px 0 0;
+            float: right;
+            background-position: center;
+            border: 10px solid lightblue;
+
+        }
+        .beatles2{
+            height: 400px;
+            width: 45%;
+            background-image: url(beatles2.jfif);
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: 30px 10px 0 50px;
+            float: left;
+            background-position: center;
+            border: 10px solid lightblue;
+        }
+        .beatles3{
+            height: 370px;
+            width: 270px;
+            background-image: url(beatles4.jfif);
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: 20px 50px 0 0;
+            float: right;
+            background-position: center;
+            border: 10px solid lightblue;
+        }
+        .beatles4{
+            height: 330px;
+            width: 270px;
+            background-image: url(beatles3.jfif);
+
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: 20px 50px 0 0;
+            float: right;
+            background-position: center;
+            border: 10px groove lightblue;
+        }
+        .man:hover{
+            filter: drop-shadow(10px 10px 10px black);
+            transform: scale(180deg);
+            transition: .6s;
+            border: none;
+        }
+        .footer{
+            height: 100px;
+            background-color: gray;
+            padding-left: 20px;
+            color: white;
+        }
+        .footer h1{
+            text-align: center;
+            font-style: italic;
+        }
+        .a:hover{
+            text-align: center;
+            transition: .4s;
+            transform: scale(1.5);
+        }
+        .b:hover{
+            text-align: center;
+            transform: scale(1.5);
+            transition: .4s;
+        }
+        .c:hover{
+            text-align: center;
+            transform: scale(1.5);
+            transition: .4s;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    
+    <nav>
+        <a href="index.html">HOME</a>
+        <a href="gallery.html">GALLERY</a>
+        <a href="about.html">ABOUT</a>
+        <a href="contact.html">CONTACT</a>
+    </nav>
+    <section id="home">
+        <h1 class="h1">THE BEATLES GALLERY</h1>
+        <div class="beatles man"></div>
+        <div class="beatles1 man"></div>
+        <div class="beatles2 man"></div>
+        <div class="beatles3 man"></div>
+        <div class="beatles4 man"></div>
+    </section>
+    <div class="footer">
+        <h1>Design by Farid</h1>
+        <ul>
+            <li class="a">@thebeatles</li>
+            <li class="b"><a href="https://www.thebeatles.com">thebeatles</a></li>
+            <li class="c">#thebeatles</li>
+        </ul>
+    </div>
+    <!-- <section id="gallery"></section>
+    <section id="about"></section>
+    <section id="contact"></section>  -->
+</body>
+</html>

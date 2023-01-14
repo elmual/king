@@ -1,2 +1,0 @@
-# king
-KING's GROUP

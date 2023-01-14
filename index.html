@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html, body{
+            height: 100%;
+            scroll-behavior: smooth;
+        }
+        .header{
+            height: 100px;
+            width: 100%;
+            background-color: gray;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+            float: left;
+            margin: 40px 25px 0 20px;
+        }
+        .main{
+            height: calc(100% - 100px);
+            width: 100%;
+            background-color: wheat;
+        }
+        .h1{
+            text-align: center;
+            padding-top: 30px;
+            letter-spacing: 30px;
+            text-shadow: 10px 10px 3px gray;
+        }
+        .h1:hover{
+            transform: rotateY(360deg);
+            transition: 1s;
+        }
+        .main p{
+            text-indent: 30px;
+            padding: 50px 15px;
+            font-size: 18px;
+            letter-spacing: 3px;
+            font-style: italic;
+        }
+        .video{
+            height: 300px;
+            background-color: wheat;
+        }
+        .video1{
+            height: 200px;
+            width: 400px;
+            padding-left: 30px;
+            padding-bottom: 50px;
+        }
+        .footer{
+            height: 100px;
+            background-color: gray;
+            padding-left: 20px;
+            color: white;
+        }
+        .footer h1{
+            text-align: center;
+            font-style: italic;
+        }
+        .a:hover{
+            text-align: center;
+            transition: .4s;
+            transform: scale(1.5);
+        }
+        .b:hover{
+            text-align: center;
+            transform: scale(1.5);
+            transition: .4s;
+        }
+        .c:hover{
+            text-align: center;
+            transform: scale(1.5);
+            transition: .4s;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <a href="index.html">HOME
+            <div class="btn"></div>
+        </a>
+        <a href="gallery.html">GALLERY
+            <div class="btn"></div>
+        </a>
+        <a href="about.html">ABOUT
+            <div class="btn"></div>
+        </a>
+        <a href="contact.html">CONTACT
+            <div class="btn"></div>
+        </a>
+    </div>
+    <div class="main">
+        <h1 class="h1">THE BEATLES</h1>
+        <p>The Beatles were an English rock band, formed
+        <strong> in Liverpool in 1960</strong>, that comprised <strong> John Lennon, Paul McCartney, George Harrison and Ringo Starr.</strong> They are regarded as the most influential band of all time and were integral to the development of 1960s counterculture and popular music's recognition as an art form. Rooted in skiffle, beat and 1950s rock 'n' roll, their sound incorporated elements of classical music and traditional pop in innovative ways; the band also explored music styles ranging from folk and Indian music to psychedelia and hard rock. <strong>As pioneers in recording, songwriting and artistic presentation, the Beatles revolutionised many aspects of the music industry and were often publicised as leaders of the era's youth and sociocultural movements.</strong> 
+
+            Led by primary songwriters Lennon and McCartney, the Beatles evolved from Lennon's previous group, the Quarrymen, and built their reputation playing clubs in Liverpool and Hamburg over three years from 1960, initially with Stuart Sutcliffe playing bass. The core trio of Lennon, McCartney and Harrison, together since 1958, went through a succession of drummers, including Pete Best, before asking Starr to join them in 1962. Manager Brian Epstein moulded them into a professional act, and producer George Martin guided and developed their recordings, greatly expanding their domestic success after signing to EMI Records and achieving their first hit, "Love Me Do", in late 1962. As their popularity grew into the intense fan frenzy dubbed "Beatlemania", the band acquired the nickname "the Fab Four", with Epstein, Martin or another member of the band's entourage sometimes informally referred to as a "fifth Beatle".
+            
+            By early 1964, the Beatles were international stars and had achieved unprecedented levels of critical and commercial success. They became a leading force in Britain's cultural resurgence, ushering in the British Invasion of the United States pop market, and soon made their film debut with A Hard Day's Night (1964). A growing desire to refine their studio efforts, coupled with the untenable nature of their co produced records of greater sophistication, including the albums Rubber Soul (1965), Revolver (1966) and Sgt. Pepper's. <br><strong><ins> Here is one of their musics </ins></strong></p> 
+        </div>
+        <div class="video">
+            <video class="video1" src="https://youtu.be/jo505ZyaCbA" controls></video>
+        </div>
+    </div>
+    <div class="footer">
+        <h1>Design by Farid</h1>
+        <ul>
+            <li class="a">@thebeatles</li>
+            <li class="b"><a href="https://www.thebeatles.com">thebeatles</a></li>
+            <li class="c">#thebeatles</li>
+        </ul>
+    </div>
+</body>
+</html>
